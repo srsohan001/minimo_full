@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* font-family: 'Ubuntu', sans-serif; */
+
+.container {
+    width: 90%;
+    ;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    padding: 70px 0px;
+}
+
+.header_left {
+    width: 12%;
+    float: left;
+}
+
+.header_left img {
+    width: 100%;
+}
+
+.header_right {
+    width: 55%;
+    float: right;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.header_right ul {
+    list-style: none;
+}
+
+.header_right ul li {
+    display: inline-block;
+    padding-right: 13%;
+}
+
+.header_right ul li:hover a {
+    color: #000000;
+}
+
+.header_right ul li:last-child {
+    padding-right: 0px;
+}
+
+.header_right ul li a {
+    text-decoration: none;
+    font-size: 14 pt;
+    color: #626262;
+}
+
+
+/* Banner Start */
+
+.container img {
+    width: 100%;
+}
+
+/* Banner End */
+
+
+/* About Start */
+
+.about_wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about_top {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.about_top p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.about_middle {
+    margin-bottom: 38px;
+}
+
+.about_middle p {
+    font-size: 30pt;
+    font-weight: 500;
+    color: #626262;
+}
+
+.about_bottom {
+    width: 99%;
+}
+
+.about_bottom p {
+    font-size: 14pt;
+    color: #626262;
+    line-height: 24pt;
+}
+
+.leave_comment {
+    margin-top: 50px;
+    margin-bottom: 136px;
+}
+
+.leave_comment p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+/* About End */
+
+
+
+/* Testimonial Start */
+
+.testimonial {
+    margin-bottom: 125px;
+    overflow: hidden;
+}
+
+.testimonial_left {
+    width: 45%;
+    float: left;
+}
+
+.testimonial_image {
+    width: 100%;
+}
+
+.testimonial_image img {
+    width: 100%;
+}
+
+.testimonila_paragraph {
+    margin-top: 32px;
+}
+
+.testimonila_paragraph p:first-child {
+    margin-bottom: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.testimonila_paragraph p:nth-child(2) {
+    font-size: 27pt;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 40px;
+}
+
+.testimonila_paragraph p:last-child {
+    font-size: 14pt;
+    color: #626262;
+    line-height: 24pt;
+}
+
+
+.testimonial_right {
+    width: 45%;
+    float: right;
+}
+
+.testimonial_bottom {
+    margin-top: 135px;
+}
+
+/* Testimonial End */
+
+
+
+/* Newsletter Start */
+
+.newletter {
+    padding: 72px 0px;
+    background-color: #f0f0f0;
+}
+
+.newletter_wrapper {
+    width: 37%;
+    margin: 0 auto;
+}
+
+.newsletter_heading {
+    color: #333333;
+    text-align: left;
+}
+
+.newsletter_heading p {
+    font-size: 30pt;
+}
+
+.newsletter_mail {
+    margin-top: 83px;
+    text-align: left;
+}
+
+.newsletter_mail input {
+    border: none;
+    outline: none;
+    background: none;
+    padding-bottom: 10px;
+    font-size: 14pt;
+    width: 85%;
+    border-bottom: 1px solid black;
+}
+
+
+.newsletter_mail input::placeholder {
+    color: #626262;
+}
+
+.newsletter_mail img {
+    margin-right: 4px;
+    margin-left: -20px;
+}
+
+
+/* Newsletter End */
+
+
+/* Bottom Testimonial Start */
+
+.bottom_wrapper {
+    margin-top: 103px;
+}
+
+.bottom_testimonial {
+    overflow: hidden;
+}
+
+
+
+/* Bottom Testimonial End */
+
+
+/* Load More Button Start  */
+
+.button {
+    padding-top: 170px;
+    padding-bottom: 192px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.button p:hover {
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.button p {
+    display: inline-block;
+    padding: 15px 33px;
+    font-size: 20pt;
+    border: 2px solid #626262;
+    color: #626262;
+    transition:0.3s;
+}
+
+/* Load More Button End  */
+
+
+/* Footer Start */
+
+footer {
+    background-color: #f0f0f0;
+}
+
+.footer_wrapper{
+    padding:40px 0px 45px 0px;
+    overflow: hidden;
+}
+
+.left_footer {
+    width:27%;
+    float:left;
+    font-family: 'Playfair Display', serif;
+}
+
+.left_footer p:first-child{
+    display:inline-block;
+    font-weight:600; 
+    color:black;
+}
+
+.left_footer p:last-child{
+    margin-left:17px;
+    display:inline-block;
+    font-weight:600; 
+    color:black;
+}
+
+.right_footer {
+    width:22%;
+    float:right;
+}
+
+.right_footer ul{
+    list-style:none;
+}
+
+.right_footer ul li{
+    display:inline-block;
+    padding-right:18px;
+}
+
+.right_footer ul li:first-child a {
+    margin-right:4px;
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-weight:600;    
+}
+.right_footer ul li a{
+    font-size:14pt;
+    color:#626262;
+    text-decoration:none;
+}
+
+.right_footer ul li a img{
+    width:16px;
+}
+
+
+
+
+
+
+
+/* Footer End */
